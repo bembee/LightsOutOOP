@@ -1,0 +1,25 @@
+body{
+    background-color: darkslategray;
+}
+main {
+  max-width: 1000px;
+  margin: auto;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+article {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 10px;
+}
+
+article div {
+  /* background-color: red; */
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+header, footer{
+    text-align: center;
+}
